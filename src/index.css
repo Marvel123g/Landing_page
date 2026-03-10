@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("./assets/fonts/ClashDisplay-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+body{
+    background:hsl(256, 48%, 11%);
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
+    width: 100%;
+}
+/* header{
+    background: url("./assets/background.png");
+    background-position: -200px -200px; 
+    background-repeat: no-repeat;
+} */
+
+header .hero {
+    background: url("./assets/manwithglass.png") no-repeat;
+    background-size: cover;
+}
+.rules_section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height: 100%; 
+  background-image: url("./assets/background.png");
+  background-position: -200px -180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.rules_section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-position: 600px 80px;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  z-index: -1;
+}
+.criteria_section::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  z-index: -1;
+  background-position: 600px 150px;
+}
