@@ -23,7 +23,7 @@ export default function Rules() {
         />
       </div>
 
-      <div className="rules-text w-full md:w-auto text-center md:text-left order-2 md:order-2 mt-8 md:mt-0">
+      <div className="rules-text w-full md:w-auto text-center md:text-left order-2 md:order-2 mt-6 md:mt-0">
         <p 
           className='text-3xl sm:text-4xl md:text-5xl font-bold' 
           style={{ fontFamily: "ClashDisplay" }}
