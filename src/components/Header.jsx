@@ -6,7 +6,7 @@ import Chain from "../assets/chain.png"
 
 export default function Header() {
   return (
-    <header className='flex flex-col md:flex-row items-center w-full min-h-screen bg-linear-to-b from-[#150E28] to-[#1A0B2E] text-white px-4 md:px-8 py-10 md:py-0'>
+    <header className='flex flex-col md:flex-row items-center w-full bg-linear-to-b from-[#150E28] to-[#1A0B2E] text-white px-4 md:px-8 py-15 md:py-0'>
         <div className="content w-full md:max-w-2xl text-center md:text-left">
             <div className='flex items-center justify-center md:justify-start '>
                 <p className="text-4xl sm:text-5xl md:text-7xl font-bold" style={{ fontFamily: "ClashDisplay" }}>

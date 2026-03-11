@@ -5,7 +5,7 @@ import Spark from "../assets/starpu.png";
 
 export default function FAQ() {
   return (
-    <section className='FAQ flex flex-col-reverse md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative overflow-hidden'>
+    <section className='FAQ flex flex-col-reverse md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-15 md:px-10 lg:px-20 md:py-0 relative overflow-hidden'>
 
       <div className="absolute top-10 left-4 md:top-14 md:left-10">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />

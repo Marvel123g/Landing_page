@@ -5,7 +5,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Rules() {
   return (
-    <section className='rules_section flex flex-col md:flex-row items-center justify-between text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative'>
+    <section className='rules_section flex flex-col md:flex-row items-center justify-between text-white bg-[#150f25] px-6 py-15 md:px-10 lg:px-20 md:py-0 relative'>
 
       <div className="absolute top-10 left-4 md:top-24 md:left-120 opacity-16">
         <img src={Star} alt="" className="w-5 h-6 md:w-7 md:h-8" />

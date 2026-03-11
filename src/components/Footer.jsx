@@ -5,7 +5,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Footer() {
   return (
-    <footer className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-25 py-8 sm:py-10 md:py-16 lg:py-20 text-white bg-[#100B20] relative">
+    <footer className="w-full px-4 sm:px-6 md:px-10 lg:px-16 xl:px-25 py-15 sm:py-10 md:py-16 lg:py-20 text-white bg-[#100B20] relative">
       
       <div className="absolute top-5 left-4 sm:top-10 sm:left-6 md:top-15 md:left-9">
         <img src={Star} alt="" className="w-4 h-5 sm:w-5 sm:h-6 md:w-7 md:h-8" />

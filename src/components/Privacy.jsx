@@ -6,7 +6,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Privacy() {
   return (
-    <section className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-6 lg:gap-12 px-4 md:px-10 lg:px-20 py-10 md:py-16 lg:py-24 text-white bg-[#150f25] relative overflow-hidden">
+    <section className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-6 lg:gap-12 px-4 md:px-10 lg:px-20 py-15 md:py-16 lg:py-24 text-white bg-[#150f25] relative overflow-hidden">
 
       <div className="absolute top-40 left-4 md:top-150 md:left-9 opacity-19">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />

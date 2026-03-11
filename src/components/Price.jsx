@@ -8,7 +8,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Price() {
   return (
-    <section className='px-4 sm:px-8 md:px-12 lg:px-20 relative overflow-hidden'>
+    <section className='px-4 sm:px-8 md:px-12 py-15 lg:px-20 relative'>
         <div className="absolute top-8 left-4 sm:top-10 sm:left-8 md:top-14 md:left-18 lg:top-14 lg:left-18">
             <img src={Spark} alt="" className="w-5 h-6 sm:w-6 sm:h-7 md:w-7 md:h-8" />
         </div>

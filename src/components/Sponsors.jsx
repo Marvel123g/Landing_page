@@ -8,7 +8,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Sponsors() {
   return (
-    <section className="py-8 sm:py-10 md:py-16 lg:py-20 px-3 sm:px-4 md:px-8 lg:px-16 bg-[#150E28] text-white relative overflow-hidden">
+    <section className="py-15 sm:py-10 md:py-16 lg:py-20 px-3 sm:px-4 md:px-8 lg:px-16 bg-[#150E28] text-white relative overflow-hidden">
 
       <div className="absolute top-10 left-2 sm:top-16 sm:left-4 md:top-28 md:left-10 lg:top-44 lg:left-18">
         <img src={Spark} alt="" className="w-4 h-5 sm:w-5 sm:h-6 md:w-6 md:h-7 lg:w-7 lg:h-8" />

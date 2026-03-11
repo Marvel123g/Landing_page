@@ -55,7 +55,7 @@ export default function Timeline() {
   ];
 
   return (
-    <section className="relative py-10 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 text-white overflow-hidden">
+    <section className="relative py-15 sm:py-12 md:py-16 px-4 sm:px-6 md:px-8 text-white overflow-hidden">
       <div className="absolute top-20 left-10 sm:top-30 sm:left-20 md:top-40 md:left-40 lg:left-60">
         <img src={Spark} alt="" className="w-5 h-6 sm:w-6 sm:h-7 md:w-7 md:h-8" />
       </div>

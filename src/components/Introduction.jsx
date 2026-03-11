@@ -5,7 +5,7 @@ import Spark from "../assets/starpu.png";
 
 export default function Introduction() {
   return (
-    <section className='flex flex-col md:flex-row items-center justify-between md:gap-0 gap-7 text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative'>
+    <section className='flex flex-col md:flex-row items-center justify-between md:gap-0 gap-7 text-white bg-[#150f25] px-6 py-15 md:px-10 lg:px-20 md:py-0 relative'>
       <div className="absolute top-20 left-4 md:top-44 md:left-18">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
