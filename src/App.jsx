@@ -8,6 +8,8 @@ import FAQ from './components/FAQ'
 import Timeline from './components/Timeline'
 import Price from './components/Price'
 import Sponsors from './components/Sponsors'
+import Privacy from './components/Privacy'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
     <Timeline/>
     <Price/>
     <Sponsors/>
+    <Privacy/>
+    <Footer/>
    </div>
   )
 }
