@@ -6,7 +6,6 @@ import Spark from "../assets/starpu.png";
 export default function Introduction() {
   return (
     <section className='flex flex-col-reverse md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative'>
-      {/* Spark decorations - adjusted positions for mobile */}
       <div className="absolute top-20 left-4 md:top-44 md:left-18">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
@@ -15,8 +14,7 @@ export default function Introduction() {
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
-      {/* Image section - appears first on mobile due to flex-col-reverse */}
-      <div className='relative mb-8 md:mb-0'>
+      <div className='relative'>
         <img 
           src={Hero} 
           alt="Introduction Hero Image" 
@@ -29,7 +27,6 @@ export default function Introduction() {
         />
       </div>
       
-      {/* Content section */}
       <div className="content max-w-lg text-center md:text-left">
         <h1 
           className='text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-0' 

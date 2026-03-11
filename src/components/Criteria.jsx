@@ -7,7 +7,6 @@ export default function Criteria() {
   return (
     <section className="criteria_section flex flex-col lg:flex-row items-center text-white relative px-6 md:px-12 lg:px-20 py-16 gap-12">
 
-      {/* decorative stars */}
       <div className="absolute top-10 left-10 hidden md:block">
         <img src={Spark} alt="" className="w-6 h-6" />
       </div>
@@ -20,7 +19,6 @@ export default function Criteria() {
         <img src={Star} alt="" className="w-6 h-6" />
       </div>
 
-      {/* image */}
       <div className="w-full lg:w-1/2 flex justify-center">
         <img
           src={Hero}
@@ -29,7 +27,6 @@ export default function Criteria() {
         />
       </div>
 
-      {/* content */}
       <div className="content w-full lg:w-1/2">
 
         <p
@@ -40,7 +37,6 @@ export default function Criteria() {
           <span className="text-[#D434FE]">Key attributes</span>
         </p>
 
-        {/* items */}
         <div className="item mt-4" style={{ fontFamily: "Montserrat" }}>
           <b className="font-bold text-[15px] md:text-[16px] text-[#FF26B9]">
             Innovation and Creativity:

@@ -7,7 +7,6 @@ export default function FAQ() {
   return (
     <section className='FAQ flex flex-col-reverse md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative overflow-hidden'>
 
-      {/* Spark/Star decorations - adjusted positions for mobile */}
       <div className="absolute top-10 left-4 md:top-14 md:left-10">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
@@ -24,7 +23,6 @@ export default function FAQ() {
         <img src={Star} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
-      {/* Image section - appears first on mobile due to flex-col-reverse */}
       <div className='w-full md:w-auto flex justify-center order-1 md:order-2 mb-8 md:mb-0'>
         <img 
           src={Hero} 
@@ -33,7 +31,6 @@ export default function FAQ() {
         />
       </div>
 
-      {/* Content section - appears second on mobile */}
       <div className="content w-full md:w-auto text-center md:text-left order-2 md:order-1">
         <h1 
           className='text-3xl sm:text-4xl md:text-4xl font-bold' 

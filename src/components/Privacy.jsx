@@ -8,7 +8,6 @@ export default function Privacy() {
   return (
     <section className="w-full flex flex-col-reverse lg:flex-row items-center justify-between gap-6 lg:gap-12 px-4 md:px-10 lg:px-20 py-10 md:py-16 lg:py-24 text-white bg-[#150f25] relative overflow-hidden">
 
-      {/* Decorative elements - repositioned for mobile */}
       <div className="absolute top-40 left-4 md:top-150 md:left-9 opacity-19">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
@@ -33,7 +32,6 @@ export default function Privacy() {
         <img src={Star} alt="" className="w-4 h-4 md:w-5 md:h-5" />
       </div>
 
-      {/* RIGHT IMAGE - appears first on mobile due to flex-col-reverse */}
       <div className="w-full lg:w-1/2 flex justify-center order-1 lg:order-2 mb-6 lg:mb-0">
         <img 
           src={PrivacyHero} 
@@ -42,10 +40,8 @@ export default function Privacy() {
         />
       </div>
 
-      {/* Content section - appears second on mobile */}
       <div className="content w-full lg:w-1/2 text-center lg:text-left order-2 lg:order-1">
 
-        {/* Heading section */}
         <div className="heading mb-4 md:mb-6">
           <h2 
             className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2" 
@@ -64,7 +60,6 @@ export default function Privacy() {
           Below are our privacy & policy, which outline a lot of goodies. it's our aim to always take care of our participant
         </p>
 
-        {/* Policy card */}
         <div className="border border-[#D434FE] rounded p-4 sm:p-6 md:p-8 lg:p-20 bg-[#D434FE1A] flex flex-col items-center lg:items-start" style={{ fontFamily: "Montserrat" }}>
           
           <div className="w-full">
@@ -84,7 +79,6 @@ export default function Privacy() {
               </span>
             </div>
 
-            {/* Check items */}
             <div className="flex items-start gap-2 md:gap-3 mb-3 md:mb-4 text-left">
               <span className="bg-[#2DE100] p-1 rounded-full shrink-0 mt-0.5">
                 <FiCheck className='text-white text-xs'/>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Hero from "../assets/Image.png"
+import Hero2 from "../assets/manwithglass.png"
 import Spark from "../assets/spark.png"
 import Chain from "../assets/chain.png"
 
@@ -44,11 +45,16 @@ export default function Header() {
             </div>
         </div>
         
-        <div className="w-full md:flex-1 flex justify-center md:justify-end mb-8 md:mb-0">
+        <div className="w-full md:flex-1 flex justify-center md:justify-end mb-8 md:mb-0 relative">
             <img 
                 src={Hero} 
                 alt="Hero" 
-                className="hero object-contain w-4/5 sm:w-3/4 md:w-full max-w-xxl md:max-w-xxl"
+                className="absolute -left-10 opacity-80 top-10 object-contain w-4/5 sm:w-3/4 md:w-full max-w-xl md:max-w-xxl"
+            />
+            <img 
+                src={Hero2} 
+                alt="Hero" 
+                className="object-contain sm:w-3/4 md:w-full max-w-xxl md:max-w-xxl"
             />
         </div>
     </header>

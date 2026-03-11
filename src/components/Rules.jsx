@@ -7,7 +7,6 @@ export default function Rules() {
   return (
     <section className='rules_section flex flex-col md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative overflow-hidden'>
 
-      {/* Star decorations - adjusted positions for mobile */}
       <div className="absolute top-10 left-4 md:top-24 md:left-120 opacity-16">
         <img src={Star} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
@@ -16,7 +15,6 @@ export default function Rules() {
         <img src={Star} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
-      {/* Image section - appears first on mobile (before text) */}
       <div className='w-full md:w-auto flex justify-center order-1 md:order-1'>
         <img 
           src={Hero} 
@@ -25,7 +23,6 @@ export default function Rules() {
         />
       </div>
 
-      {/* Rules text section - appears second on mobile */}
       <div className="rules-text w-full md:w-auto text-center md:text-left order-2 md:order-2 mt-8 md:mt-0">
         <p 
           className='text-3xl sm:text-4xl md:text-5xl font-bold' 
