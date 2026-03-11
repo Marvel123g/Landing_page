@@ -5,12 +5,12 @@ import Spark from "../assets/starpu.png";
 
 export default function Introduction() {
   return (
-    <section className='flex flex-col md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative'>
+    <section className='flex flex-col md:flex-row items-center justify-between md:gap-0 gap-7 text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative'>
       <div className="absolute top-20 left-4 md:top-44 md:left-18">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
-      <div className="absolute bottom-20 right-4 md:bottom-20 md:right-10">
+      <div className="absolute bottom-20 right-4 md:right-10">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
@@ -37,7 +37,7 @@ export default function Introduction() {
         </h1>
         
         <p 
-          className='font-normal text-xs sm:text-sm leading-5 sm:leading-6 md:leading-[27.5px] mt-2 md:mt-3 px-2 md:px-0' 
+          className='font-normal text-xs sm:text-sm leading-5 sm:leading-6 md:leading-[27.5px] px-2 md:px-0' 
           style={{ fontFamily: "Montserrat" }}
         >
           Our tech hackathon is a melting pot of visionaries, and its purpose is as

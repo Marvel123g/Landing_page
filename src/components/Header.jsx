@@ -45,7 +45,7 @@ export default function Header() {
             </div>
         </div>
         
-        <div className="w-full md:flex-1 flex justify-center md:justify-end mb-8 md:mb-0 relative">
+        <div className="w-full md:flex-1 flex justify-center md:justify-end relative">
             <img 
                 src={Hero} 
                 alt="Hero" 
