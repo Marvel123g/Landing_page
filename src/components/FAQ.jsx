@@ -8,15 +8,15 @@ export default function FAQ() {
     <section className='FAQ flex flex-col-reverse md:flex-row items-center justify-between min-h-screen text-white bg-[#150f25] px-6 py-10 md:px-10 lg:px-20 md:py-0 relative overflow-hidden'>
 
       {/* Spark/Star decorations - adjusted positions for mobile */}
-      <div className="absolute top-10 left-4 md:top-19 md:left-20">
+      <div className="absolute top-10 left-4 md:top-14 md:left-10">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 
-      <div className="absolute top-20 right-4 md:top-10 md:right-90">
+      <div className="absolute top-20 right-4 md:top-4 md:right-120">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
       
-      <div className="absolute top-40 left-20 md:top-50 md:right-150">
+      <div className="absolute top-40 left-20 md:top-50 md:left-150">
         <img src={Spark} alt="" className="w-5 h-6 md:w-7 md:h-8" />
       </div>
 

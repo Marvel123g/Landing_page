@@ -48,9 +48,13 @@ export default function Header() {
             <img 
                 src={Hero} 
                 alt="Hero" 
-                className="hero object-contain w-4/5 sm:w-3/4 md:w-full max-w-md md:max-w-xxl"
+                className="hero object-contain w-4/5 sm:w-3/4 md:w-full max-w-xxl md:max-w-xxl"
             />
         </div>
     </header>
   )
 }
+
+
+
+
