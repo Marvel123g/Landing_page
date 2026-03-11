@@ -49,7 +49,7 @@ export default function Header() {
             <img 
                 src={Hero} 
                 alt="Hero" 
-                className="absolute -left-10 opacity-80 top-10 object-contain w-4/5 sm:w-3/4 md:w-full max-w-xl md:max-w-xxl"
+                className="absolute -left-10 opacity-80 top-10 object-contain w-4/5 sm:w-3/4 md:w-full max-w-xl md:max-w-xxl sm:max-h-75"
             />
             <img 
                 src={Hero2} 

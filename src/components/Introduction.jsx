@@ -18,7 +18,7 @@ export default function Introduction() {
         <img 
           src={Hero} 
           alt="Introduction Hero Image" 
-          className='object-contain w-full max-w-xs sm:max-w-sm md:max-w-lg mx-auto' 
+          className='object-contain w-4/5 sm:w-2/3 md:w-1/2 lg:w-2/5 max-w-full mx-auto' 
         />
         <img 
           src={Arrow} 
