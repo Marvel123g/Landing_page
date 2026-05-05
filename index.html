@@ -1,146 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Node Practice Form</title>
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
-
-    body {
-      background: #0f172a;
-      color: #fff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .container {
-      background: #111827;
-      padding: 30px;
-      border-radius: 10px;
-      width: 350px;
-      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-    }
-
-    h2 {
-      text-align: center;
-      margin-bottom: 20px;
-    }
-
-    input {
-      width: 100%;
-      padding: 10px;
-      margin: 10px 0;
-      border: none;
-      border-radius: 5px;
-      outline: none;
-    }
-
-    button {
-      width: 100%;
-      padding: 10px;
-      background: #22c55e;
-      border: none;
-      color: #000;
-      font-weight: bold;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #16a34a;
-    }
-
-    .message {
-      margin-top: 15px;
-      text-align: center;
-      font-size: 14px;
-    }
-
-    .success {
-      color: #4ade80;
-    }
-
-    .error {
-      color: #f87171;
-    }
-
-    .loading {
-      color: #60a5fa;
-    }
-  </style>
+    <!-- The browser will see this and ask the server for /style.css -->
+    <link rel="stylesheet" href="/style.css">
 </head>
-
 <body>
-
-  <div class="container">
-    <h2>Create User</h2>
-
-    <form id="userForm">
-      <input type="text" id="name" placeholder="Enter name" required />
-      <input type="email" id="email" placeholder="Enter email" required />
-      <input type="password" id="password" placeholder="Enter password" required />
-
-      <button type="submit">Submit</button>
+    <h1>Welcome to the Lab</h1>
+    <form action="/submit" method="POST">
+        <div class="wrapper">
+          <input type="text" name="username" placeholder="Enter Name">
+          <textarea rows="6" type="text" name="message" placeholder="Enter message"></textarea>
+        </div>
+        
+          <button type="submit">Send</button>
     </form>
-
-    <div class="message" id="message"></div>
-  </div>
-
-  <script>
-    const form = document.getElementById("userForm");
-    const message = document.getElementById("message");
-
-    form.addEventListener("submit", async (e) => {
-      e.preventDefault();
-
-      // Get values
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-
-      // Show loading
-      message.textContent = "Sending...";
-      message.className = "message loading";
-
-      try {
-        const response = await fetch("/", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json"
-          },
-          body: JSON.stringify({
-            name,
-            email,
-            password
-          })
-        });
-
-        const data = await response.json();
-
-        if (response.ok) {
-          message.textContent = data.message || "User created successfully!";
-          message.className = "message success";
-          form.reset();
-        } else {
-          message.textContent = data.error || "Something went wrong!";
-          message.className = "message error";
-        }
-
-      } catch (error) {
-        message.textContent = "Server not reachable!";
-        message.className = "message error";
-        console.error(error);
-      }
-    });
-  </script>
-
 </body>
 </html>
